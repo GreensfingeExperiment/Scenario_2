@@ -11,12 +11,6 @@
 
     <dependencies>
 
-        <dependency>
-            <groupId>net.sf.esfinge</groupId>
-            <artifactId>greenframework</artifactId>
-            <version>0.0.1</version>
-        </dependency>
-
         <!--    tests   -->
         <dependency>
             <groupId>org.junit.jupiter</groupId>
