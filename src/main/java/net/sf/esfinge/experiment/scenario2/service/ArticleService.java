@@ -1,6 +1,6 @@
-package net.sf.esfinge.experiment.scenario1.service;
+package net.sf.esfinge.experiment.scenario2.service;
 
-import net.sf.esfinge.experiment.scenario1.repository.ArticleRepository;
+import net.sf.esfinge.experiment.scenario2.repository.ArticleRepository;
 
 public class ArticleService {
 

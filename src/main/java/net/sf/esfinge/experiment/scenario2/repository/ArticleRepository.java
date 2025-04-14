@@ -1,4 +1,4 @@
-package net.sf.esfinge.experiment.scenario1.repository;
+package net.sf.esfinge.experiment.scenario2.repository;
 
 public class ArticleRepository {
 

@@ -1,6 +1,6 @@
-package net.sf.esfinge.experiment.scenario1;
+package net.sf.esfinge.experiment.scenario2;
 
-import net.sf.esfinge.experiment.scenario1.controller.ArticleController;
+import net.sf.esfinge.experiment.scenario2.controller.ArticleController;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;

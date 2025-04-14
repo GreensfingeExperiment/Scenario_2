@@ -1,6 +1,6 @@
-package net.sf.esfinge.experiment.scenario1.controller;
+package net.sf.esfinge.experiment.scenario2.controller;
 
-import net.sf.esfinge.experiment.scenario1.service.ArticleService;
+import net.sf.esfinge.experiment.scenario2.service.ArticleService;
 
 public class ArticleController {
 
