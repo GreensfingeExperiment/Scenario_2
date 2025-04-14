@@ -1,6 +1,6 @@
 # 📰 Article View Counter – GreenEsfinge Experiment
 
-This project simulates a simplified article view counter, commonly used in blogs or content platforms. It is part of an experiment designed to demonstrate how energy-saving strategies can be integrated into Java applications using the **GreenEsfinge Framework**.
+This project simulates a simplified article view counter, commonly used in blogs or content platforms. It is part of an experiment designed to demonstrate how energy-saving strategies can be integrated into Java applications **without** using the **GreenEsfinge Framework**.
 
 ## 📦 Project Structure
 
