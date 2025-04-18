@@ -1,21 +1,21 @@
 package net.sf.esfinge.experiment.scenario2.service;
 
-import net.sf.esfinge.experiment.scenario2.repository.ArticleRepository;
+import net.sf.esfinge.experiment.scenario2.entity.Article;
+
+import java.util.List;
 
 public class ArticleService {
 
-    private final ArticleRepository repository = new ArticleRepository();
     private boolean toggle;
 
-    public String findQtyArticleView() {
-        Integer views = repository.findQtyViews();
-
+    public void findArticles(List<Article> param) {
         //USE the toggle logic
-
-        return String.format("This article has been viewed %d times.", views);
+        param.add(new Article(50, "Article1"));
+        param.add(new Article(53, "Article2"));
+        param.add(new Article(2, "Article3"));
     }
 
-    public void setToggle(boolean toggle){
+    public void setToggle(boolean toggle) {
         this.toggle = toggle;
     }
 }
