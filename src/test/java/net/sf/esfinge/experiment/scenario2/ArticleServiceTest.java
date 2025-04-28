@@ -11,10 +11,10 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class ArticleServiceTest {
 
-    private final ArticleService articleService = new ArticleService();
-
     @Test
     void testFindQtyArticleView() {
+        ArticleService articleService = new ArticleService();
+
         List<Article> articles = new ArrayList<>();
         articleService.findArticles(articles);
 
@@ -25,6 +25,8 @@ class ArticleServiceTest {
 
     @Test
     void testFindQtyArticleUsingToggle() {
+        ArticleService articleService = new ArticleService();
+
         List<Article> articles = new ArrayList<>();
         articleService.findArticles(articles);
 
