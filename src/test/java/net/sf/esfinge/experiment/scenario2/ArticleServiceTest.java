@@ -24,7 +24,7 @@ class ArticleServiceTest {
     }
 
     @Test
-    void testFindQtyArticleUsingToggle() {
+    void testFindQtyArticleUsingLogic() {
         ArticleService articleService = new ArticleService();
 
         List<Article> articles = new ArrayList<>();
