@@ -12,6 +12,11 @@ The project follows the standard layered architecture with separate packages for
 - `service.ArticleService`: Contains the business logic to format the article view message.
 - `repository.ArticleRepository`: Simulates a database to search the values.
 
+### ❓ Remember the Task
+How can we prevent the view counter from being executed without altering the actual counting logic ? In this case, the quantity of views is optional
+
+---
+
 ## 🧪 Unit Tests
 
 The test class `ArticleServiceTest` validates the behavior of the view counter logic.
