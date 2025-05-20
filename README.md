@@ -1,6 +1,10 @@
 # 📰 Article View Counter – Greensfinge Experiment
 
-This project simulates a simplified article view counter, commonly used in blogs or content platforms. It is part of an experiment designed to demonstrate how energy-saving strategies can be integrated into Java applications **without** using the **Greensfinge Framework**.
+Consider a blog that shows the number of views for each article right below the title. By default, this number is updated with each new access:
+
+"The article Java for Beginners contains 15 pages and has been viewed 542 times."
+
+Although this is real data, it is not always required. For instance, the calculation of the number of pages is resource-intensive and not mandatory.
 
 ## 📦 Project Structure
 
