@@ -29,7 +29,6 @@ public class ArticleService {
         }
 
         return sb.toString();
-
     }
 
     public void saveConsumptionEnergy(boolean saveEnergy) {
